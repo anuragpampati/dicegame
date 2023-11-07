@@ -1,3 +1,3 @@
 # dicegame
 
-Refresh to see the winner
+Press "Start" to see the winner!!
