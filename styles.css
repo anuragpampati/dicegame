@@ -14,6 +14,13 @@ body {
   background-color: #393E46;
 }
 
+.d{
+  display: flex;
+  justify-content: center;
+  padding-right: 190px;
+  padding-bottom: 30px;
+}
+
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
@@ -38,4 +45,24 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+#startButton {
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 200px;
+}
+#refreshButton {
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 200px;
 }
