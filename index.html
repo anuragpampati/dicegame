@@ -3,15 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Dicee</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 
   </head>
   <body>
-
+  
     <div class="container">
-      <h1>Refresh Me</h1>
-
+      <h1>Click Start </h1>
       <div class="dice">
         <p>Player 1</p>
         <img class="img1" src="./images/dice6.png">
@@ -22,11 +21,29 @@
         <img class="img2" src="./images/dice6.png">
       </div>
 
+  
     </div>
+    <div class="d">
+      <button id="startButton">Start</button>
+      <script src="./index.js"></script>
+      <script>
+          document.getElementById('startButton').addEventListener('click', function () {
+            roll();
+          });
+      </script>
+    </div>
+  </div>
+  <div class="d">
+    <button id="refreshButton">Refresh</button>
+    <script src="./index.js"></script>
+    <script>
+        document.getElementById('refreshButton').addEventListener('click', function () {
+          refresh();
+        });
+    </script>
+  </div>
 
-<script src="./index.js"></script>
   </body>
-
   <footer>
     www 🎲 App Brewery 🎲 com
   </footer>
