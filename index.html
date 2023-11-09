@@ -27,8 +27,9 @@
       <button id="startButton">Start</button>
       <script src="./index.js"></script>
       <script>
-          document.getElementById('startButton').addEventListener('click', function () {
-            roll();
+          var k = document.getElementById('startButton');
+          k.addEventListener('click', function () {
+          k.style.display = 'none';
           });
       </script>
     </div>
@@ -39,6 +40,7 @@
     <script>
         document.getElementById('refreshButton').addEventListener('click', function () {
           refresh();
+          k.style.display = 'block';
         });
     </script>
   </div>
